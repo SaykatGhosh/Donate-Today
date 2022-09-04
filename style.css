@@ -251,3 +251,20 @@
 }
 
 /* get my updates End  */
+
+/* footer section start  */
+.footer-section {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-description {
+    color: white;
+    text-align: center;
+}
+
+/* footer section End  */
