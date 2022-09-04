@@ -7,9 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* header section Start */
 
-
-.header-section {
+.header-container {
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,4 +48,66 @@
 .btn-style:hover {
     background-color: black;
 
+}
+
+/* header section End */
+
+.section-header {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    font-size: 14px;
+    color: #707070;
+}
+
+.money-quantity {
+    margin: 20px;
+}
+
+.quantity-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    width: 120px;
+    height: 80px;
+    background: #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #707070;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.minimum-donate {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    background-color: #ff595922;
+}
+
+.money-value-input {
+    margin-top: 50px;
+}
+
+.money-input {
+    text-align: center;
+    margin: 5px 300px;
+}
+
+.input-field {
+    border: none;
+    margin-bottom: 10px;
 }
