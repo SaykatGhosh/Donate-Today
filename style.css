@@ -247,7 +247,20 @@
     padding: 10px 20px;
     color: white;
     margin-left: -4.5px;
+}
 
+
+.button-field a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-field a:hover {
+    color: #fe4b4b;
+}
+
+.button-field:hover {
+    background-color: white;
 }
 
 /* get my updates End  */
