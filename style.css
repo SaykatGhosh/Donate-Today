@@ -52,6 +52,8 @@
 
 /* header section End */
 
+/* Money Donate  start*/
+
 .section-header {
     text-align: center;
     margin-top: 70px;
@@ -111,3 +113,52 @@
     border: none;
     margin-bottom: 10px;
 }
+
+/* Money Donate  End*/
+
+/* Donate plan card Start */
+
+
+.donate-plan-card {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 260px;
+    height: 220px;
+    padding: 30px;
+
+}
+
+.card-design-1 {
+    background-color: #4F9DA61A;
+}
+
+.card-design-2 {
+    background-color: #FF59591A;
+}
+
+.card-design-3 {
+    background: #eaff4886;
+}
+
+.card-image {
+    margin: 7px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 7px;
+    font-weight: 600px;
+}
+
+.card-description {
+    font-size: 16px;
+    margin: 7px;
+    color: #707070;
+}
+
+/* Donate plan card End */
